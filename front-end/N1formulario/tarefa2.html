@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bem-vindo ao Cadastro Online</h1>
+        <p class="descricao">Faça seu cadastro.</p>
+
+<form>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Digite seu email">
+
+    <label for="senha">Senha:</label>
+    <input type="password" id="senha" name="senha" placeholder="Crie uma senha segura">
+
+    <label for="curso">Curso de Interesse:</label>
+    <select id="curso" name="curso">
+        <option value="html">HTML Básico</option>
+        <option value="css">CSS Avançado</option>
+        <option value="js">JavaScript para Iniciantes</option>
+    </select>
+
+    <div class="checkbox">
+        <input type="checkbox" id="noticias" name="noticias">
+        <label for="noticias">Desejo receber novidades por email</label>
+    </div>
+
+    <button type="submit">Enviar Cadastro</button>
+    <button type="reset">Limpar</button>
+    </form>
+
+    <div class="imagem-container">
+        <a href="https://www.youtube.com/watch?v=yW16UlTguzs" target="_blank">
+            <img src="https://guetogeek.com.br/wp-content/uploads/2024/11/Dandadan-Okarun.jpg" alt="Link para site externo">
+        </a>
+    </div>
+
+        <h2>Informações úteis</h2>
+        <table>
+            <tr>
+                <th>Campo</th>
+                <th>Dica</th>
+            </tr>
+            <tr>
+                <td>Nome</td>
+                <td>Utilize seu nome completo para validação</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>Digite um email válido para receber confirmações</td>
+            </tr>
+            <tr>
+                <td>Senha</td>
+                <td>Recomenda-se uma senha com letras e números</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

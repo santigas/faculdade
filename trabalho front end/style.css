@@ -1,0 +1,33 @@
+
+
+body {
+    background-color: #7055e9;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para os post-its */
+.postit {
+    background-color: #3bffe5;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 200px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.postit h5 {
+    margin: 0;
+}
+
+.postit p {
+    font-size: 14px;
+}
+
+body {
+    background-image: url(pastor.png); /* Coloque o caminho da sua imagem */
+    background-position: bottom right; /* Posiciona a imagem no canto inferior direito */
+    background-repeat: no-repeat; /* Não repete a imagem */
+    background-size: auto; /* A imagem mantém seu tamanho original */
+    height: 100vh; /* A altura do body vai cobrir toda a tela */
+    margin: 0; /* Remove a margem padrão do body */
+}
